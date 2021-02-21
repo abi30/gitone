@@ -1,7 +1,0 @@
-one in remote cloud hello man some editing
-adding at 10:19pm
-<<<<<<< HEAD
-hello i am from development at 10:30
-=======
->>>>>>> main
-
