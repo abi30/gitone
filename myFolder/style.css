@@ -114,10 +114,11 @@ header{
     border-top-right-radius: 15px;
     border-top-left-radius:15px ;
     background-color:transparent;
+
 }
 
 h1, h2 {
-    color: #ece91ee0;
+    color: #58ec1ee0;
 }
 h1 {
     font-size: 40px;
@@ -130,7 +131,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-  header ,footer, .blog-post,.other-posts,.author-box{
+  header ,footer, .blog-post,.other-posts,.author-box ,.column{
     
         margin-top: 43px;
         /* padding: 20px; */
@@ -174,8 +175,9 @@ a{
 .author-text{
     font-size: 22px;
     width: 100%;
-    padding: 20px;
-    text-align: center;
+    padding-top: 20px;
+    text-align: right;
+
   
      
 
@@ -186,8 +188,9 @@ a{
 .logo{
     width:100%;
     text-align:right;
-    /* float: right; */
-    /* box-shadow: rgba(12, 154,200, 0.75); */
+    float: right; 
+    box-shadow: rgba(12, 154,200, 0.75);
+
 }
 #logo{
     margin-top:2%;
@@ -208,18 +211,23 @@ overflow:hidden;
   
     width: 350px;
     height: 300px;
+    margin-top:70px;
     /* margin-right: 15px; */
     margin-inline-start:30px;
     float: right;
     border: 0px solid red;
     text-align: center;
     display: inline;
-    background-color: #fff;
-overflow:hidden;
+    /* background-color: #fff; */
+    color:white;
 
   
 }
 
+
+span{
+    color: red;
+}
 
 
 .other2{
@@ -227,23 +235,24 @@ overflow:hidden;
     width: 350px;
     height: 300px;
     float: right;
-   margin-left: 15px;
-
+    margin-left: 15px;
+    margin-top:70px;
     text-align: center;
     display: inline;
-    background-color: rgb(180, 14, 14);
+    /* background-color: rgb(180, 14, 14); */
 }
 .other3{
   
     width: 350px;
     height: 300px;
+    margin-top:70px;
     /* margin-inline-end:30px; */
     float:left;
     border: 0px solid red;
     text-align: center;
     display: inline;
-    background-color: #fff;
-    color:black;
+    /* background-color: #fff; */
+    color:white;
    
 }
 footer{
@@ -268,20 +277,48 @@ footer > div>h1{
     font-size: 50px;
     padding-top: 40px;
 }
-.author-text>h3{
 
+.column{
+   
+    width:100%;
+    height: 350px;
+    display:inline-block;
 }
 
+.about{
+    width: 70%;
+    height:350px;
+    background-color:none;
+    /* float: left; */
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+
 .profile-pic{
-    width: 25%;
-    text-align: right;
-    float: right;
+    background-color: none;
+    width: 30%;
+    text-align:center;
+    float: right;   
+    text-align: center;
+    color:wheat;
+    box-sizing: border-box;
+
+
+
+
 
 }
 #profile-pic{
-    width:90%;
-    height:auto;
-    margin-top:-50px ;
+
+    float:right;
+    width:px;
+    height:300px;
+    margin-top:0px ;
  
  }
     
