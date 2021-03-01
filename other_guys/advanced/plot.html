@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <style>
+        .myCarousel {
+            width: 100%;
+            height: auto;
+        }
+        main h1:first-of-type {
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-light fixed-top p-1 d-flex justify-content-between">
+        <h1 class="display-2 pl-4">Back to the future</h1>
+        <nav class="navbar-dark navbar justify-content-end">
+            <a class="px-5 text-dark text-decoration-none display-4" href="plot.html">Plot</a>
+            <a class="px-5 text-dark text-decoration-none display-4" href="actors.html">Actors</a>
+            <a class="px-5 text-dark text-decoration-none display-4" href="reviews.html">Reviews</a>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h1 class="h1">The plot of the movie</h1>
+        <div id="carouselExampleControls" class="carousel slide myCarousel carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://crops.giga.de/c8/cf/23/ea28a73bc6f597ca45c6fb645f_YyA5NTd4NTM5KzUrMzICcmUgMTkyMCAxMDgwA2NmZTgzNjlhY2I1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.computer-bild.de/imgs/7/1/9/9/6/5/7/Zurueck-in-die-Zukunft-1024x576-c1cf815064de17cb.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.tagesspiegel.de/images/heprodimagesfotos82620151021wsp_fut_car_331_1_20151020154944247-jpg/12476014/2-format43.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://apps-cloud.n-tv.de/img/21624924-1583512180000/16-9/750/imago54374575h.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="textContainer mt-3">
+            <p>
+                In 1985, Doc Emmett Brown shows teenage Marty his new creation: a car which can travel through time. The heart of the time machine is "the flux capacitor," invented by Dr. Brown. The time machine needs plutonium to provide the power for the flux capacitor. Marty uses the car to escape from Libyan terrorists and accidentally goes back to the year 1955. Marty seeks out and meets Dr. Brown in 1955. The time machine is out of plutonium, and there is no plutonium available for the time machine in 1955. By chance, Marty knows the time and place of a one-time natural event (lightning strike) that can provide the power to transport the time machine and Marty back to 1985.
+
+                The situation in 1955 is complicated when Marty meets his own parents as teenagers. When he helps his father, he accidentally changes the events that lead to his parents becoming a couple. Marty's teenage mother becomes interested in Marty instead of Marty's father, George. With the help of the Doc of 1955, Marty tries to undo the damage he has done, and make his mother fall in love with his father. If he can get his parents back together, he has very little time to get back to the car to use the lightning strike to take the time machine and him (Marty) back to the future (i.e. 1985).
+            </p>
+        </div>
+
+        <div class="trailerMovie text-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qvsgGtivCgs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </main>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
