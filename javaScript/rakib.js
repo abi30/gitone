@@ -98,10 +98,88 @@
 // console.log(n.number());
 
 
-let two_d_array=[["1","2","3"],
-                  ["4","5","6"],
-                 ["7","8","9","10"]];
-console.log(two_d_array[0][1]);
-console.log("\n");          
-console.log(two_d_array[0][2]);
+// let two_d_array=[["1","2","3"],
+//                   ["4","5","6"],
+//                  ["7","8","9","10"]];
+// console.log(two_d_array[0][1]);
+// console.log("\n");          
+// console.log(two_d_array[0][2]);
+
+
+
+
+// function product(name, price)
+//   {
+//       return  "The product: " + name + " costs €" + price;
+//   }
+// console.log(product("Bread", 1.99));
+
+
+
+// function sum(a,b) {
+//     return a+b;
+// }
+// console.log(sum(2,45));
+
+// function print() {
+//     document.write("hello our  answer is "+sum(3,54));
+// }
+
+// print();
+// function returnParam(param1, param2) {
+//     let result =`this is param1 ${param1} and another is the paramiter ${param2}`;
+//     console.log(result);
+//  }
+//     returnParam("Tesla", "Volvo");
+
+
+// var area=(function(a,b){
+ 
+//     return a*b;
+// }(4,3));
+// document.write("\n area is "+ area);
+
+
+// var area=function(c,d){
+ 
+//     return c*d;
+// };
+// document.write("\n area is "+ area(54,2));
+ 
+
+// function getResult(a,b,c){
+//     let sum=a+b+c;
+//     let multi=a*b*c;
+//     let result=[sum,multi];
+
+//     return result;
+// }
+// document.write(getResult(4,6,54)[0]);
+// document.write("<br>");
+
+// document.write(getResult(4,12,64)[1]);
+
+// document.title="my | Rakib";
+// console.log(typeof(document.all));
+// for(let element of document.all){
+//     console.log(element);
+// get element by ID 
+ let my_text=document.getElementById("my_text");
+// my_text.textContent="my country is very nice as well";
+// my_text.innerText="austria is very nice country as well";
+// my_text.innerHTML="vienna  is very nice city as well";
+
+// console.log(my_text.innerHTML);
+my_text.style.color="red";
+// my_text.style.marginTop="5px red"
+my_text.style.fontSize="70px";
+my_text.style.textShadow="5px 5px 1px #ff0000";
+
+
+
+
+
+
+
+
 
