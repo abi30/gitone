@@ -164,22 +164,81 @@
 // for(let element of document.all){
 //     console.log(element);
 // get element by ID 
- let my_text=document.getElementById("my_text");
+//  let my_text=document.getElementById("my_text");
 // my_text.textContent="my country is very nice as well";
 // my_text.innerText="austria is very nice country as well";
 // my_text.innerHTML="vienna  is very nice city as well";
 
 // console.log(my_text.innerHTML);
-my_text.style.color="red";
-// my_text.style.marginTop="5px red"
-my_text.style.fontSize="70px";
-my_text.style.textShadow="5px 5px 1px #ff0000";
+// my_text.style.color="red";
+// // my_text.style.marginTop="5px red"
+// my_text.style.fontSize="70px";
+// my_text.style.textShadow="5px 5px 1px #ff0000";
+
+
+// let input_id=document.getElementById("exampleInputPassword1");
+// input_id.style.backgroundColor="yellow";
+
+// let rakib=document.getElementsByClassName("my_class");
+// console.log(rakib);
+// for(let i= 0;i<rakib.length;i++){
+//     rakib[0].style.color="red";
+//     rakib[0].style.fontSize="30px"
+//     rakib[0].style.backgroundColor="#0f0f"
+
+//     rakib[1].style.color="orange";
+//     rakib[1].style.fontSize="25px"
+// }
+
+//  const parent=document.querySelector("#email");
+//  const children=parent.children;
+
+//  for(let i=0;i<children.length;i++){
+
+//     // console.log(children[i]);
+// children[2].style.color="#0f0f"
+//     // eleme="red"
+
+//  }
+
+//  const children= document.querySelector("#emailHelp");
+//  const parent=children.parentElement;
+//  console.log(parent);
+
+// const children= document.querySelector("#emailHelp");
+// const grandparent =children.closest(".my_class");
+// console.log(grandparent);
+
+// const childrenOne= document.querySelector(".form-label");
+// const childrenTwo=childrenOne.nextElementSibling;
+// childrenTwo.style.backgroundColor="#0f0f";
+// childrenTwo.style.color="#fff";
+// childrenTwo.style.borderColor=" #e3e";
+
+
+
+// const childrenTwo= document.querySelector("#exampleInputEmail1");
+// const childrenOne=childrenTwo.previousElementSibling;
+// childrenOne.style.backgroundColor="#0f0f";
+// childrenOne.style.color="#fff";
+// childrenOne.style.borderColor=" #e3e";
 
 
 
 
 
+// const items=document.getElementsByClassName("my_class")[0];
+// items.style.backgroundColor="#0f0f"
+// let colors= ["green","yellow","white","red","orange"];
+// colors.forEach((value)=>{
+//     console.log(`the value of the element is ${value} `);
+// })
 
 
-
-
+var i=1;
+var msg="";
+while(i<10){
+    msg+=(`${i} x 5 = ${i*5} <br/>`);
+    i++;
+    document.write(msg);
+}
