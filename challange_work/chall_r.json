@@ -1,0 +1,56 @@
+let cars = `
+   [{
+        "carBrand": "BMW 6er",
+        "productionYear": "2001",
+        "image": "img/bmw-6er-2017.jpg",
+        "price": "230000"
+    },
+    {
+        "carBrand": "Mercedes EQC",
+        "productionYear": "2021",
+        "image": "img/mercedes.jpg",
+        "price": "1000000"
+    },
+    {
+        "carBrand": "VW T-Roc",
+        "productionYear": "2020",
+        "image": "img/vw.jpg",
+        "price": "500000"
+    },
+    {
+        "carBrand": "BMW 3er",
+        "productionYear": "2001",
+        "image": "img/bmw.jpg",
+        "price": "230000"
+    },
+    {
+        "carBrand": "Mercedes EQC",
+        "productionYear": "2021",
+        "image": "img/mercedes.jpg",
+        "price": "1000000"
+    },
+    {
+        "carBrand": "VW Multivan",
+        "productionYear": "2020",
+        "image": "img/multivan.jfif",
+        "price": "500000"
+    },
+    {
+        "carBrand": "BMW",
+        "productionYear": "2001",
+        "image": "img/bmw.jpg",
+        "price": "230000"
+    },
+    {
+        "carBrand": "Mercedes",
+        "productionYear": "2021",
+        "image": "img/mercedes.jpg",
+        "price": "1000000"
+    },
+    {
+        "carBrand": "VW",
+        "productionYear": "2020",
+        "image": "img/vw.jpg",
+        "price": "500000"
+    }
+]`
