@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <h1>JSON meets Javascript</h1>
+
+    <br>
+  
+    <div id="results"></div>
+
+    <div id="courses"></div>
+  
+    <script>
+  
+
+
+
+
+
+  let results= document.getElementById("results");
+    let books = {
+        "Javascript": [{
+            "title": "JS made easy",
+            "price": 70
+        }, {
+            "title": "Javascript for Dummies",
+            "price": 40
+        }],
+        "PHP": [{
+            "title": "PHP for the People",
+            "price": 1000
+        }, {
+            "title": "PEE H. PEE",
+            "price": 1300
+        }]
+    }
+
+
+results.innerHTML= "<h2>Javascript Books:</h2>"
+    for (i = 0; i < books.Javascript.length; i++) {
+      results.innerHTML+=`<div><h3> ${books.Javascript[i].title} </h3><b>price:</b> ${books.Javascript[i].price} EUR</div>`;
+    }
+
+    results.innerHTML+= "<hr><h2>PHP Books:</h2>"
+    for (i = 0; i < books.PHP.length; i++) {
+      results.innerHTML+=`<div><h3> ${books.PHP[i].title} </h3><b>price:</b> ${books.PHP[i].price} EUR</div>`;
+    }
+
+
+// --------------------------------------------------------------------
+
+let courses= document.getElementById("courses");
+let course_name ={
+    "webDevelop":[{"title":"4 months HTML and CSS Basic",
+                   "price": 300 
+                },{"title":"6 months javaScript advanced",
+                   "price":500
+                }],
+"softwareDevelop":[{"title":"4 months java basic",
+                    "price":400
+                },{"title":"6 months java FW spring advanced",
+                    "price":700
+                }]
+};
+
+
+
+courses.innerHTML= "<hr><h2> WebDevelop :</h2>";
+
+console.log(course_name.webDevelop.length);
+
+ for ( x = 0; x < course_name.webDevelop.length; x++) {
+courses.innerHTML += `<div><h3>${course_name.webDevelop[x].title}   <h3><b>price:</b>${course_name.webDevelop[x].price}</div>`;
+ }
+
+ courses.innerHTML+="<hr><h2>SoftwareDevelop</h2>"
+for (let x =0;  x<course_name.softwareDevelop.length; x++) {
+   
+courses.innerHTML +=`<div><h3>${course_name.softwareDevelop[x].title} </h3><b>price:</b> ${course_name.softwareDevelop[x].price}</div>`;
+
+
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      // Create object1
+  
+    //   let object1 = {
+  
+    //     "language": "English",
+  
+    //     "title": "Javascript for Mummies"
+  
+    //   };
+  
+  
+    //   // Print object1
+  
+    //   document.getElementById('result').innerHTML = "<h3>Language = " + object1.language + "</h3><h3>Title = " + object1.title + "</h3>";
+  
+  
+    //   // Create object2
+  
+    //   let object2 = {
+  
+    //     "language": "German",
+  
+    //     "title": "Javascript für Angeber"
+  
+    //   };
+  
+    //   //create an <hr> between both objects
+  
+    //   document.getElementById('result').innerHTML += "<hr/>";
+  
+  
+    //   // Print object2
+  
+    //   document.getElementById('result').innerHTML += "<h3>Language = " + object2.language + "</h3><h3>Title = " + object2.title + "</h3>";
+  
+    </script>
+
+
+
+
+    <!-- <script src="jsonCrash.js"></script> -->
+</body>
+</html>

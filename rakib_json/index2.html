@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>JSON example</title>
+
+</head>
+
+<body>
+
+  <h1>Employees</h1>
+
+  <div id="results"></div>
+
+  <script src="data.json"></script>
+
+  <script>
+
+    let mydata = JSON.parse(employees); // convert string into an object
+
+    console.log(mydata); // prints converted object into the console
+
+    /* Prints data from Object1 */
+
+    document.getElementById('results').innerHTML = "My name is " + mydata[0].firstName + " and I am working as a " +
+
+      mydata[0].jobTitleName + "<hr>";
+
+    /* Prints data from Object2 */
+
+    document.getElementById('results').innerHTML += "My name is " + mydata[1].firstName + " and I am working as a " +
+
+      mydata[1].jobTitleName + "<hr>";
+
+    /* Prints data from Object3 */
+
+    document.getElementById('results').innerHTML += "My name is " + mydata[2].firstName + " and I am working as a " +
+
+      mydata[2].jobTitleName + "<hr>";
+
+  </script>
+
+</body>
+
+</html>
