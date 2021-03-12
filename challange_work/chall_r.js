@@ -50,7 +50,6 @@ document.getElementById("cardMaxi"+[i]).appendChild(textContainer);
 
 var imgMaxiText=document.createElement("p");
 var imgMaxiTextNode=document.createTextNode(allCars[i].carBrand);
-// imgMaxiText.setAttribute()
 imgMiniText.appendChild(imgMaxiTextNode);
 document.getElementById("textContainer"+[i]).appendChild(imgMaxiText);
 
@@ -77,7 +76,7 @@ for(let i =0;i < cardMinis.length;i++){
 cardMinis[i].addEventListener("click",()=>{
 
     cardMaxis[i].style.display="flex";
-    cardContainers[i].setAttribute("style","width:100%;");
+    cardContainers[i].setAttribute("style","width:10%;");
     cardMinis[i].style.display="none";
 });
 
